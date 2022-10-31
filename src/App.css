@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+.hero-header{
+  max-width: 85%;
+  display: flex;
+  margin: 10px auto 0;
+  justify-content: right;
+}
+
+.hero{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: 6%;
+}
+.hero-image h2{
+  color: #101828;
+}
+.hero-body{
+  max-width: 85%;
+  margin: 20px auto;
+}
+
+#profile_img{
+  position: relative;
+  cursor: pointer;
+}
+#profile_hover{
+  position: absolute;
+  top: 10px;
+  left: 46.1%;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+#profile_hover:hover{
+  opacity: 1;
+}
+
+#option-button{
+  display: none;
+}
+
+#slack{
+  display: none;
+}
+
+a{
+  background: #F4F5F7;
+  display: block;
+  text-align: center;
+  margin: 15px 5px;
+  padding: 12px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: rgba(16, 24, 40, 1);
+  font-weight: 500;
+  font-size: 18px;
+}
+a:hover{
+  background: rgba(208, 213, 221, 1);
+}
+.social-section{
+  max-width: 85%;
+  margin: 0 auto;
+  text-align: center;
+}
+#slack{
+  margin-right: 10px;
+}
+.footer{
+  border-top: 2px solid  #F4F5F7;;
+  padding-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 85%;
+  margin: 30px auto 0;
+}
+@media(max-width:426px){
+  .hero{
+    width: 100%;
+    justify-content: center;
+    margin-right: 0;
+  }
+  .footer{
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+  }
+
+  #zuri{
+    width: 120px;
+    margin-bottom: 5px;
+  }
+  #I4G{
+    width: 120px;
+    margin-top: 5px;
+  }
+  #profile_hover{
+    left: 35%;
+    
+  }
+  #option-button{
+    display: flex;
+  }
+  #share-button{
+    display: none;
+  }
+}
