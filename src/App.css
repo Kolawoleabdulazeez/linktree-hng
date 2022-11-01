@@ -39,7 +39,7 @@ body {
 #profile_hover{
   position: absolute;
   top: 17px;
-  left: 45.1%;
+  left: 43.2%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -92,7 +92,7 @@ a:hover{
   max-width: 85%;
   margin: 30px auto 0;
 }
-@media(max-width:767px){
+@media(max-width:425px){
 
   .hero h2{
     margin-top: 5px;
@@ -120,7 +120,7 @@ a:hover{
     margin-top: 5px;
   }
   #profile_hover{
-    left: 41%;
+    left: 37%;
     
   }
   #option-button{
