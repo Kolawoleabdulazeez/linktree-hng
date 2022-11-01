@@ -7,11 +7,19 @@
   font-family: 'Inter', sans-serif;
 }
 
+body {
+  background-color: #ffffff;
+  text-align: center;
+  min-height: 100vh;
+  max-width: 100vw;
+}
+
 .hero-header{
   max-width: 85%;
   display: flex;
   margin: 10px auto 0;
   justify-content: right;
+
 }
 
 .hero{
@@ -36,7 +44,7 @@
 #profile_hover{
   position: absolute;
   top: 10px;
-  left: 46.1%;
+  left: 45.9%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -87,10 +95,19 @@ a:hover{
   margin: 30px auto 0;
 }
 @media(max-width:426px){
+
   .hero{
-    width: 100%;
-    justify-content: center;
+    width: 65%;
+    justify-content: space-between;
     margin-right: 0;
+   
+  }
+  .hero h2{
+    margin-top: 5px;
+  }
+  #option-button{
+    margin-left: 20px;
+  
   }
   .footer{
     flex-direction: column;
@@ -107,7 +124,7 @@ a:hover{
     margin-top: 5px;
   }
   #profile_hover{
-    left: 35%;
+    left: 38.9%;
     
   }
   #option-button{

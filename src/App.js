@@ -24,7 +24,7 @@ function App() {
       <div className='hero-header'>
         <div className='hero'>
         <div className='hero-image'>
-        <img src={ProfileImage} alt="" id='profile_img'/>
+        <img src={ProfileImage} alt="" id='profile__img'/>
         <img src={ProfileHover} alt='profile' id='profile_hover'/>
           <h2 id='twitter'>Hayzhed5</h2>
           <h2 id='slack'>Abdulazeez Kolawole</h2>
@@ -40,10 +40,10 @@ function App() {
       
         <a href={twitter} id='btn-twitter'>Twitter Link</a>
         <a href={zuriBtn} id='btn__zuri'>Zuri Team</a>
-        <a href={zuriBooks} id='books'>Zuri Books</a>
-        <a href={booksPython} id='book__python'>Python Books</a>
-        <a href={pitch} id='pitch'>Background Check for Coders</a>
-        <a href={zuriDesign} id='book__design'>Design Books</a>
+        <a href={zuriBooks} id='books' title='You can get books about design and coding here'>Zuri Books</a>
+        <a href={booksPython} id='book__python' title='Upgrade your python knowledge '>Python Books</a>
+        <a href={pitch} id='pitch' title='Survey outstanding programmers using our tools'>Background Check for Coders</a>
+        <a href={zuriDesign} id='book__design' title='Get free design books offered by Zuri'>Design Books</a>
     
       </div>
 
