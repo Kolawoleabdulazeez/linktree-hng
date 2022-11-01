@@ -7,7 +7,7 @@
   font-family: 'Inter', sans-serif;
 }
 
-.linktree-body {
+body {
   background-color: #fff;
   text-align: center;
   min-height: 100vh;
@@ -20,6 +20,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: right;
+  border: 1px solid green;
 }
 
 .hero{
@@ -28,6 +29,7 @@
   justify-content: space-between;
   text-align: center;
   margin-right: 6%;
+  border: 1px solid blue;
 }
 .hero-image h2{
   color: #101828;
@@ -99,10 +101,13 @@ a:hover{
     width: 65%;
     justify-content: space-between;
     margin-right: 0;
+    border: 1px solid red;
    
   }
   .hero-header{
     justify-content: right;
+    border: 1px solid blue;
+    margin: 0 auto;
   }
   .hero h2{
     margin-top: 5px;
