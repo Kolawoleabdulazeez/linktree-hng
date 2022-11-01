@@ -17,9 +17,8 @@ body {
 .hero-header{
   max-width: 85%;
   display: flex;
-  margin: 10px auto 0;
+  margin: 20px auto 0;
   justify-content: right;
-
 }
 
 .hero{
@@ -43,8 +42,8 @@ body {
 }
 #profile_hover{
   position: absolute;
-  top: 10px;
-  left: 45.9%;
+  top: 19px;
+  left: 46%;
   opacity: 0;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -67,7 +66,7 @@ a{
   display: block;
   text-align: center;
   margin: 15px 5px;
-  padding: 12px;
+  padding: 15px;
   border-radius: 5px;
   text-decoration: none;
   color: rgba(16, 24, 40, 1);
@@ -79,7 +78,7 @@ a:hover{
 }
 .social-section{
   max-width: 85%;
-  margin: 0 auto;
+  margin: 20px auto;
   text-align: center;
 }
 #slack-logo{
@@ -95,7 +94,6 @@ a:hover{
   margin: 30px auto 0;
 }
 @media(max-width:426px){
-
   .hero{
     width: 65%;
     justify-content: space-between;
@@ -124,7 +122,7 @@ a:hover{
     margin-top: 5px;
   }
   #profile_hover{
-    left: 38.9%;
+    left: 41%;
     
   }
   #option-button{
