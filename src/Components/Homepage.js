@@ -1,5 +1,5 @@
 import React from 'react'
-import "../Components/App.css";
+import "../Components/Homepage.css";
 import ProfileImage from '../assets/profile__img.png';
 import ShareButton  from "../assets/share button.png";
 import Slack from "../assets/slack.png";
