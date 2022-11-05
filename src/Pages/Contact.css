@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact_page{
+    width: 60%;
+    margin: 60px auto;
+}
+
+.contact_header h2{
+    margin-bottom: 10px;
+}
+.contact_header p{
+    margin-bottom: 20px;
+}
+
+form{
+    width: 88%;
+}
+.name{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first_name, .last_name{
+    width: 100%;
+}
+#email, #message{
+    width: 97%;
+    padding: 8px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.name input{
+    width: 94%;
+    padding: 8px 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#message{
+    min-height: 100px;
+    width: 97%;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 8px 5px;
+    resize: none;
+    transition: all 0.3s ease-in-out;
+}
+
+#btn__submit{
+    width: 97%;
+    margin: 10px 0;
+    padding: 8px;
+    background: rgba(21, 112, 239, 1);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    font-size: 17px;
+}
+.checkbox{
+    margin: 5px 0;
+}
+
+@media (max-width:426px) {
+    .contact_page{
+        width: 90%;
+    }
+    form{
+        width: 100%;
+    }
+    .name{
+        flex-direction: column;
+    }
+    #btn__submit,#last_name, #first_name,#email, #message{
+        width: 100%;
+    }
+    
+    
+}
