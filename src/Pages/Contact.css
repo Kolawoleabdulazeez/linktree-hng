@@ -80,6 +80,19 @@ form{
     #btn__submit,#last_name, #first_name,#email, #message{
         width: 100%;
     }
-    
-    
+}
+
+@media(max-width:769px){
+    .contact_page{
+        width: 80%;
+    }
+    form{
+        width: 100%;
+    }
+    .name{
+        flex-direction: column;
+    }
+    #btn__submit,#last_name, #first_name,#email, #message{
+        width: 100%;
+    }
 }
